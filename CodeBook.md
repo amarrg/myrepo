@@ -1,6 +1,7 @@
 ## Description of the tidy data set
 
 The data set consits of:
+	1. Hello
 	* 30 rows: Each row corresponds to one of the 30 subjects who were subjected to the experimentation
 	* 475 columns: Each column indicates the average of either the mean or the standard deviation of one of the features that were measured. More description below
 
