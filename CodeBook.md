@@ -1,12 +1,12 @@
 ## Description of the tidy data set
 
-The data set consists of:
-    * 30 rows: Each row corresponds to one of the 30 subjects who were subjected to the experimentation
+The data set consists of:  
+    * 30 rows: Each row corresponds to one of the 30 subjects who were subjected to the experimentation  
     * 475 columns: Each column indicates the average of either the mean or the standard deviation of one of the features that were measured. More description below
 
-Each column name in the data set is of the form <Activity>-[t/f]<Feature>-[mean/std]-{X/Y/Z} where:
-	* <Activity> is one among:
-		* LAYING - Data was collected when the subject was laying down
+Each column name in the data set is of the form [Activity]-[t/f][Feature]-[mean/std]-{X/Y/Z} where:  
+    * [Activity] is one among:
+      * LAYING - Data was collected when the subject was laying down
 		* SITTING - Data was collected when the subject was sitting
 		* STANDING - Data was collected when the subject was standing
 		* WALKING - Data was collected when the subject was walking
@@ -15,7 +15,7 @@ Each column name in the data set is of the form <Activity>-[t/f]<Feature>-[mean/
 	* [t/f] indicates that either 't' or 'f' is present, where:
 		* t means the values are in time domain
 		* f means the values are in frequency domain
-	* <Feature> is one among:
+	* [Feature] is one among:
 		* BodyAcc - Data in this column relates to Body Acceleration signal which is obtained by separating the acceleration signal using low pass Butterworth filter with a corner frequency of 0.3 Hz
 		* GravityAcc - Data in this column relates to Gravity Acceleration signal which is obtained by separating the acceleration signal using low pass Butterworth filter with a corner frequency of 0.3 Hz
 		* BodyAccJerk - Data in this column relates to Jerk signals which are obtained when the the body linear acceleration was derived in time
