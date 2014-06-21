@@ -30,7 +30,9 @@ dmerx <- rbind(dtrainx, dtestx)
 colnames(dmerx) <- gsub("\\(\\)", "", df[,2])
 
 #Extract only the columns containing the mean and standard deviation of the data
+#But first remove the columns that contain meanFreq
 # -> Point 2 of the instruction
+dmerx <- dmerx[,-grep("meanFreq",colnames(dmerx))]
 dext <- dmerx[,grep("mean|std",colnames(dmerx))]
 
 #Merge the rows of training and testing data for Y, these contain the activities
