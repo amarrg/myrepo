@@ -74,6 +74,7 @@ dc <- acast(dfin,Subject ~ Activity ~ variable,mean)
 subjects <- data.frame(1:30)
 colnames(subjects) <- c("Subject")
 fin <- cbind(subjects,dc)
+colnames(fin) <- gsub("\\.t", "-", colnames(fin))
 
 #Write the data to a file
 write.table(fin,"./output.txt")
