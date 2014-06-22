@@ -5,7 +5,7 @@ The data set consists of:
     1. 30 rows: Each row corresponds to one of the 30 subjects who were subjected to the experimentation  
     2. 475 columns: Each column indicates the average of either the mean or the standard deviation of one of the features that were measured. More description below  
     
-Each column name in the data set is of the form "[Activity]-[t/f][Feature]-[mean/std]-{X/Y/Z}" where:  
+Each column name in the data set is of the form "[Activity].[t/f][Feature]-[mean/std]-{X/Y/Z}" where:  
     1. [Activity] is one among:  
       * LAYING - Data was collected when the subject was laying down  
       * SITTING - Data was collected when the subject was sitting  
@@ -36,7 +36,7 @@ Each column name in the data set is of the form "[Activity]-[t/f][Feature]-[mean
       * Z indicates that the column contains signal values measured in the Z-axis direction  
 
 Some examples of column names as per above definition:  
-    * LAYING-tBodyAcc-mean-X : indicates that the column contains the mean of the Body Acceleration signal measured in X-axis direction when the subject was LAYING down  
+    * LAYING.tBodyAcc-mean-X : indicates that the column contains the mean of the Body Acceleration signal measured in X-axis direction when the subject was LAYING down  
     * WALKING_DOWNSTAIRS.fBodyAccMag-std : indicates that the column contains the standard deviation of the magniture of the Body Accelration Signal calculated in the frequency domain. Axis direction is not relevant here
 </h>
 
